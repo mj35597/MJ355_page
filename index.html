@@ -7,33 +7,443 @@
   <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo:800&display=swap&subset=korean" rel="stylesheet">
 
 <style>
+* {
+  box-sizing: border-box;}
+
     html{font-family: 'Nanum Myeongjo', sans-serif;}
-    body{margin:0; padding:0;}
+    body{margin:0; padding:0; background: url(back.jpg); background-size: 100% auto;}
+
   
     section{padding-top:100%; position: relative;}
     .white{background:white;}
 
+.column {
+  float: left;
+  width: 7%;
+  padding: 2%;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+  line-height: 1.3;
+}
+
+h2{ 
+      color:white;
+      font-weight: 900;
+      line-height: 1.3;
+      letter-spacing: -1px;
+      position: relative; 
+      }
+
+p{ font-size: 15px; 
+      line-height: 2;
+      letter-spacing: -1px;
+      width:40%;
+      word-spacing: 3px;
+      position: relative;
+      word-break: keep-all;
+      }
+
+
+
+#containerTab {
+  padding: 10%;
+  color: white;}
+
+#containerTab img{float: right;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
 .container {
   position: absolute;
   width: 27%;
-  left: 15%;
-  top: 5%;
+  left: 20%;
+  top: 10%;
 }
 
 .container2 {
   position: absolute;
   width: 35%;
   left: 50%;
-  top: -90%;
+  top: 20%;
 }
 
 .container3 {
   position: absolute;
   width: 35%;
+  left: 13%;
+  top: 20%;
+}
+
+.container4 {
+  position: absolute;
+  width: 30%;
+  left: 53%;
+  top: 0%;
+}
+
+.container5 {
+  position: absolute;
+  width: 23%;
   left: 10%;
+  top: 7%;
+}
+
+.container6 {
+  position: absolute;
+  width: 23%;
+  left: 36%;
+  top: 7%;
+}
+
+
+.container7 {
+  position: absolute;
+  width: 23%;
+  right: 15%;
+  top: 7%;
+}
+
+.container8 {
+  position: absolute;
+  width: 26%;
+  left: 20%;
+  top: 0%;
+}
+
+.container9 {
+  position: absolute;
+  width: 26%;
+  right: 20%;
+  top: 0%;
+}
+
+.container10 {
+  position: absolute;
+  width: 26%;
+  left: 10%;
+  top: 0%;
+}
+
+.container11 {
+  position: absolute;
+  width: 26%;
+  left: 37%;
+  top: 20%;
+}
+
+.container12 {
+  position: absolute;
+  width: 26%;
+  right: 10%;
   top: 30%;
 }
 
+.container13 {
+  position: absolute;
+  width: 26%;
+  left: 7%;
+  top: 50%;
+}
+
+.container14 {
+  position: absolute;
+  width: 26%;
+  left: 36%;
+  top: 25%;
+}
+
+.container15 {
+  position: absolute;
+  width: 26%;
+  right: 10%;
+  top: 20%;
+}
+
+.container16 {
+  position: absolute;
+  width: 30%;
+  left: 15%;
+  top: 30%;
+}
+
+.container17 {
+  position: absolute;
+  width: 40%;
+  right: 10%;
+  top: 25%;
+}
+
+.container18 {
+  position: absolute;
+  width: 26%;
+  left: 20%;
+  top: 0%;
+}
+
+.container19 {
+  position: absolute;
+  width: 30%;
+  right: 20%;
+  top: 10%;
+}
+
+.container20 {
+  position: absolute;
+  width: 30%;
+  left: 5%;
+  top: 5%;
+}
+
+
+.container21 {
+  position: absolute;
+  width: 50%;
+  right: 12%;
+  top: 0%;
+}
+
+
+.container22 {
+  position: absolute;
+  width: 30%;
+  left: 17%;
+  top: -25%;
+}
+
+
+.container23 {
+  position: absolute;
+  width: 28%;
+  right: 20%;
+  top: -15%;
+}
+
+
+.container24 {
+  position: absolute;
+  width: 26%;
+  left: 10%;
+  top: -20%;
+}
+
+
+.container25 {
+  position: absolute;
+  width: 50%;
+  right: 10%;
+  top: -13%;
+}
+
+
+.container26 {
+  position: absolute;
+  width: 35%;
+  left: 12%;
+  top: 10%;
+}
+
+
+.container27 {
+  position: absolute;
+  width: 35%;
+  right: 15%;
+  top: 0%;
+}
+
+
+.container28 {
+  position: absolute;
+  width: 23%;
+  left: 7%;
+  top: 0%;
+}
+
+
+.container29 {
+  position: absolute;
+  width: 26%;
+  left: 32%;
+  top: -5%;
+}
+
+
+.container30 {
+  position: absolute;
+  width: 30%;
+  right: 10%;
+  top: 0%;
+}
+
+
+.container31 {
+  position: absolute;
+  width: 23%;
+  left: 10%;
+  top: -0%;
+}
+
+
+.container32 {
+  position: absolute;
+  width: 23%;
+  left: 37%;
+  top: 0%;
+}
+
+
+.container33 {
+  position: absolute;
+  width: 23%;
+  right: 10%;
+  top: 0%;
+}
+
+
+.container34 {
+  position: absolute;
+  width: 26%;
+  left: 8%;
+  top: 0%;
+}
+
+
+.container35 {
+  position: absolute;
+  width: 26%;
+  left: 36%;
+  top: -10%;
+}
+
+
+.container36 {
+  position: absolute;
+  width: 26%;
+  right: 10%;
+  top: -5%;
+}
+
+
+.container37 {
+  position: absolute;
+  width: 26%;
+  left: 10%;
+  top: 10%;
+}
+
+
+.container38 {
+  position: absolute;
+  width: 26%;
+  right: 37%;
+  top: 0%;
+}
+
+
+.container39 {
+  position: absolute;
+  width: 26%;
+  right: 10%;
+  top: 10%;
+}
+
+
+.container40 {
+  position: absolute;
+  width: 35%;
+  left: 15%;
+  top: 0%;
+}
+
+
+.container41 {
+  position: absolute;
+  width: 28%;
+  right: 15%;
+  top: 0%;
+}
+
+
+.container42 {
+  position: absolute;
+  width: 26%;
+  right: 10%;
+  top: 0%;
+}
+
+
+.container43 {
+  position: absolute;
+  width: 26%;
+  left: 10%;
+  top: 0%;
+}
+
+
+.container44 {
+  position: absolute;
+  width: 26%;
+  left: 30%;
+  top: 0%;
+}
+
+
+.container45 {
+  position: absolute;
+  width: 26%;
+  right: 10%;
+  top: 0%;
+}
+
+
+.container46 {
+  position: absolute;
+  width: 26%;
+  right: 10%;
+  top: 0%;
+}
+
+.container47 {
+  position: absolute;
+  width: 26%;
+  right: 10%;
+  top: 0%;
+}
+
+.container48 {
+  position: absolute;
+  width: 26%;
+  right: 10%;
+  top: 0%;
+}
+
+.container49 {
+  position: absolute;
+  width: 26%;
+  right: 10%;
+  top: 0%;
+}
+
+.container50 {
+  position: absolute;
+  width: 26%;
+  right: 10%;
+  top: 0%;
+}
 
 .image {
   display: block;
@@ -54,44 +464,205 @@
   background-color: #008CBA;
 }
 
-.overlay2 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-.overlay3 {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
-
 .container:hover .overlay {
   opacity: 1;
 }
 
-.container2:hover .overlay2 {
+.container2:hover .overlay {
   opacity: 1;
 }
 
-.container3:hover .overlay3 {
+.container3:hover .overlay {
   opacity: 1;
 }
 
+.container4:hover .overlay {
+  opacity: 1;
+}
+
+.container5:hover .overlay {
+  opacity: 1;
+}
+
+.container6:hover .overlay {
+  opacity: 1;
+}
+
+.container7:hover .overlay {
+  opacity: 1;
+}
+
+.container8:hover .overlay {
+  opacity: 1;
+}
+
+.container9:hover .overlay {
+  opacity: 1;
+}
+
+.container10:hover .overlay {
+  opacity: 1;
+}
+
+.container11:hover .overlay {
+  opacity: 1;
+}
+
+.container12:hover .overlay {
+  opacity: 1;
+}
+
+.container13:hover .overlay {
+  opacity: 1;
+}
+
+.container14:hover .overlay {
+  opacity: 1;
+}
+
+.container15:hover .overlay {
+  opacity: 1;
+}
+
+.container16:hover .overlay {
+  opacity: 1;
+}
+
+.container17:hover .overlay {
+  opacity: 1;
+}
+
+.container18:hover .overlay {
+  opacity: 1;
+}
+
+.container19:hover .overlay {
+  opacity: 1;
+}
+
+.container20:hover .overlay {
+  opacity: 1;
+}
+
+.container21:hover .overlay {
+  opacity: 1;
+}
+
+.container22:hover .overlay {
+  opacity: 1;
+}
+
+.container23:hover .overlay {
+  opacity: 1;
+}
+
+.container24:hover .overlay {
+  opacity: 1;
+}
+
+.container25:hover .overlay {
+  opacity: 1;
+}
+
+.container26:hover .overlay {
+  opacity: 1;
+}
+
+.container27:hover .overlay {
+  opacity: 1;
+}
+
+.container28:hover .overlay {
+  opacity: 1;
+}
+
+.container29:hover .overlay {
+  opacity: 1;
+}
+
+.container30:hover .overlay {
+  opacity: 1;
+}
+
+.container31:hover .overlay {
+  opacity: 1;
+}
+
+.container32:hover .overlay {
+  opacity: 1;
+}
+
+.container33:hover .overlay {
+  opacity: 1;
+}
+
+.container34:hover .overlay {
+  opacity: 1;
+}
+
+.container35:hover .overlay {
+  opacity: 1;
+}
+
+.container36:hover .overlay {
+  opacity: 1;
+}
+
+.container37:hover .overlay {
+  opacity: 1;
+}
+
+.container38:hover .overlay {
+  opacity: 1;
+}
+
+.container39:hover .overlay {
+  opacity: 1;
+}
+
+.container40:hover .overlay {
+  opacity: 1;
+}
+
+.container41:hover .overlay {
+  opacity: 1;
+}
+
+.container42:hover .overlay {
+  opacity: 1;
+}
+
+.container43:hover .overlay {
+  opacity: 1;
+}
+
+.container44:hover .overlay {
+  opacity: 1;
+}
+
+.container45:hover .overlay {
+  opacity: 1;
+}
+
+.container46:hover .overlay {
+  opacity: 1;
+}
+
+.container47:hover .overlay {
+  opacity: 1;
+}
+
+.container48:hover .overlay {
+  opacity: 1;
+}
+
+.container49:hover .overlay {
+  opacity: 1;
+}
+
+.container50:hover .overlay {
+  opacity: 1;
+}
 
 .text {
   color: white;
@@ -106,73 +677,459 @@
 }
 
 
-    #a{padding-top:15%; background: url(back.jpg); background-size: cover;
-      background-attachment: fixed;}
-    #b{padding-top:40%; background: url(back.jpg); background-size: cover;
-      background-attachment: fixed;}
-    #c{padding-top:15%; background: url(back.jpg); background-size: cover;
-      background-attachment: fixed;}
-    #d{background: url(back.jpg); background-size: cover;
-      background-attachment: fixed;}
-    #e{background: url(back.jpg); background-size: cover;
-      background-attachment: fixed;}
-    #f{background: url(back.jpg); background-size: cover;
-      background-attachment: fixed;}
-    #g{background: url(back.jpg); background-size: cover;
-      background-attachment: fixed;}  
+    #a{padding-top:40%; }
+    #b{padding-top:40%; }
+    #c{padding-top:40%; }
+    #d{padding-top:40%; }
+    #e{padding-top:40%; }
+    #f{padding-top:40%; }
+    #g{padding-top:40%; }
+    #h{padding-top:40%; } 
+    #i{padding-top:40%; } 
+    #j{padding-top:40%; } 
+    #k{padding-top:40%; } 
+    #l{padding-top:40%; } 
+    #m{padding-top:40%; } 
+    #n{padding-top:40%; } 
+    #o{padding-top:40%; } 
+    #p{padding-top:40%; } 
+    #q{padding-top:40%; } 
+    #r{padding-top:40%; } 
+    #s{padding-top:40%; } 
+    #t{padding-top:40%; }
+    #u{padding-top:40%; } 
+    #v{padding-top:40%; } 
+    #w{padding-top:40%; } 
+    #x{padding-top:40%; } 
+    #y{padding-top:40%; } 
+    #z{padding-top:40%; }    
 
+#manu{
+   overflow: hidden;
+  position: fixed;
+  top: 5%;
+  width: 100%;
+  left: 4%;
+}
+
+#manu ul li {float: left;
+  text-align: center;
+  list-style:none;
+  font-size: 150%;
+}
+
+#link{
+  width: 80%;
+  text-decoration: none; 
+  color:#1ddb16;
+  font-weight: bold;
+}
+
+#ins{
+   overflow: hidden;
+  position: fixed;
+  top: 83%;
+  width: 100%;
+  right: 3%;
+}
+
+#ins ul li {float: right;
+  text-align: center;
+  list-style:none;
+  font-size: 120%;
+
+}
+
+#gra{
+   overflow: hidden;
+  position: fixed;
+  top: 90%;
+  width: 100%;
+  right: 3%;
+}
+
+#gra ul li {float: right;
+  text-align: center;
+  list-style:none;
+  font-size: 120%;
+
+}
 
 </style>
 </head>
 <body>
 
 
-<section class="white" id="a">
+<section id="a">
   <div class="container">
-  <img src="1.jpg" class="image">
-  <div class="overlay">
-  <div class="text">Papa bear<br>(Paper in Gouche) 
-  </div></div>
-</section>
-
-<section class="white" id="a">
+    <img src="1.jpg" class="image">
+    <div class="overlay">
+      <div class="text">Papa bear<br>(Paper in Gouche)</div>
+    </div>
+  </div> 
+  
   <div class="container2">
-  <img src="2.jpg"  class="image">
-  <div class="overlay2">
-  <div class="text">Owl Family<br>(Paper in Gouche)
-  </div></div>
+    <img src="2.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">Owl Family<br>(Paper in Gouche)</div>
+    </div>
+  </div>
 </section>
 
-<section class="white" id="b">
+<section id="b">
   <div class="container3">
-  <img src="3.jpg"  class="image">
-  <div class="overlay3">
-  <div class="text">월하사혼<br>(Paper in Gouche)
-  </div></div>
+    <img src="3.jpg" class="image">
+    <div class="overlay">
+      <div class="text">월하사혼<br>(Paper in Gouche)</div>
+    </div>
+  </div> 
+  
+  <div class="container4">
+    <img src="4.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">It's time to leave, kid<br>(Paper in Gouche)</div>
+    </div>
+  </div>
 </section>
 
-<section class="white" id="b">
-  <div class="container2">
-  <img src="4.jpg"  class="image">
-  <div class="overlay2">
-  <div class="text">It's time to leave, kid<br>(Paper in Gouche)
-  </div></div>
+<section id="c">
+  <div class="container5">
+    <img src="5.gif" class="image">
+    <div class="overlay">
+      <div class="text">측백나무<br>(Illustrator,Photoshop)</div>
+    </div>
+  </div> 
+  
+  <div class="container6">
+    <img src="6.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">일상속의 타이포그래피<br>(Illustrator,Photoshop)</div>
+    </div>
+  </div>
+
+  <div class="container7">
+    <img src="7.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">타이포그래피 수업을 들은 학생들의 작업물을 이용한 가상 전시회의 리플렛</div>
+    </div>
+  </div>
 </section>
 
-<section class="white" id="c">
-  <div class="container3">
-  <img src="5.gif"  class="image">
-  <div class="overlay3">
-  <div class="text">월하사혼<br>(Paper in Gouche)
-  </div></div>
+<section id="d">
+  <div class="container8">
+    <img src="8.jpg" class="image">
+    <div class="overlay">
+      <div class="text">DAS MOZART!<br>(Poster; Illustrator,Photoshop)</div>
+    </div>
+  </div> 
+  
+  <div class="container9">
+    <img src="9.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">의지박약<br>(Photoshop)</div>
+    </div>
+  </div>
 </section>
 
-<section class="white" id="b">
-  <div class="container2">
-  <img src="6.jpg"  class="image">
-  <div class="overlay2">
-  <div class="text">Owl Family<br>(Paper in Gouche)
-  </div></div>
+<section id="e">
+  <div class="container10">
+    <img src="10.jpg" class="image">
+    <div class="overlay">
+      <div class="text">눈시울이 붉은 국화<br>(Paper in Gouche)
+      </div>
+    </div>
+  </div> 
+
+  <div class="container11">
+    <img src="11.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">담장 아래 기다림<br>(Paper in Gouche)
+      </div>
+    </div>
+  </div>  
+
+  <div class="container12">
+    <img src="12.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">습관1<br>(Paper in Gouche)</div>
+    </div>
+  </div>
 </section>
+
+<section id="f">
+  <div class="container13">
+    <img src="13.png" class="image">
+    <div class="overlay">
+      <div class="text">능소화<br>(Chinese trumpet creeper; Photoshop)</div>
+    </div>
+  </div> 
+  <div class="container14">
+    <img src="14.png"  class="image">
+    <div class="overlay">
+      <div class="text">수레국화<br>(Centaurea; Photoshop)
+      </div>
+    </div>
+  </div>    
+  <div class="container15">
+    <img src="15.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">산수유<br>(Cornus officinalis; Photoshop)</div>
+    </div>
+  </div>
+</section>
+
+<section id="g">
+  <div class="container16">
+    <img src="16.jpg" class="image">
+    <div class="overlay">
+      <div class="text">Mj355-Name card<br>(Ink Drawing & Photochop,Indesign)</div>
+    </div>
+  </div> 
+  
+  <div class="container17">
+    <img src="17.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">Letter Moon<br>(Printed pictures and collage on Paper)</div>
+    </div>
+  </div>
+</section>
+
+<section id="h">
+  <div class="container18">
+    <img src="18.png" class="image">
+    <div class="overlay">
+      <div class="text">달의 뒷면<br>(Illustrator,Indesign)</div>
+    </div>
+  </div> 
+  
+  <div class="container19">
+    <img src="19.png"  class="image">
+    <div class="overlay">
+      <div class="text">Billie Eilish-Bellyache Album Redesign<br>(Photoshop)</div>
+    </div>
+  </div>
+</section>
+
+<section id="i">
+  <div class="container20">
+    <img src="20.jpg" class="image">
+    <div class="overlay">
+      <div class="text">소냐의 모험<br>(동화 일러스트; Photochop)</div>
+    </div>
+  </div> 
+  
+  <div class="container21">
+    <img src="21.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">치카치카! 나도 할 수 있어요<br>(동화 일러스트; Photochop)</div>
+    </div>
+  </div>
+</section>
+
+<section id="j">
+  <div class="container22">
+    <img src="22.jpg" class="image">
+    <div class="overlay">
+      <div class="text">인어<br>(Ink Drawing)</div>
+    </div>
+  </div> 
+  
+  <div class="container23">
+    <img src="23.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">아메리카노 뱀파이어<br>(Ink Drawing)</div>
+    </div>
+  </div>
+</section>
+
+<section id="k">
+  <div class="container24">
+    <img src="24.jpg" class="image">
+    <div class="overlay">
+      <div class="text">Dream<br>(Webtoon;Photochop)</div>
+    </div>
+  </div> 
+  
+  <div class="container25">
+    <img src="25.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">그러나<br>(청각의 시각화; Paper in Gouche)</div>
+    </div>
+  </div>
+</section>
+
+<section id="l">
+  <div class="container26">
+    <img src="26.jpg" class="image">
+    <div class="overlay">
+      <div class="text">가면의 책<br>(Book Design)</div>
+    </div>
+  </div> 
+  
+  <div class="container27">
+    <img src="27.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">기록! 매일매일 홈 트레이닝<br>(Book Design)</div>
+    </div>
+  </div>
+</section>
+
+<section id="m">
+  <div class="container28">
+    <img src="28.jpg" class="image">
+    <div class="overlay">
+      <div class="text">뚝딱이 color&type</div>
+    </div>
+  </div> 
+  
+  <div class="container29">
+    <img src="29.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">뚝딱이<br>(Bx)</div>
+    </div>
+  </div>
+
+  <div class="container30">
+    <img src="30.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">뚝딱이 이모티콘</div>
+    </div>
+  </div>
+
+</section>
+
+<section id="n">
+  <div class="container31">
+    <img src="31.gif"  class="image">
+    <div class="overlay">
+      <div class="text">아기공룡의 하루<br>(움직이는 이모티콘)</div>
+    </div>
+  </div>
+
+  <div class="container32">
+    <img src="32.gif" class="image">
+    <div class="overlay">
+      <div class="text">아기공룡의 하루<br>(움직이는 이모티콘)</div>
+    </div>
+  </div> 
+  
+  <div class="container33">
+    <img src="33.gif"  class="image">
+    <div class="overlay">
+      <div class="text">아기공룡의 하루<br>(움직이는 이모티콘)</div>
+    </div>
+  </div>
+</section>
+
+<section id="o">
+  <div class="container34">
+    <img src="34.jpg" class="image">
+    <div class="overlay">
+      <div class="text">Claudie<br>(Photochop)</div>
+    </div>
+  </div> 
+  
+  <div class="container35">
+    <img src="35.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">Villanel in Paris<br>(Photochop)</div>
+    </div>
+  </div>
+
+  <div class="container36">
+    <img src="36.jpg" class="image">
+    <div class="overlay">
+      <div class="text">Villanel in Tuscany<br>(Photochop)</div>
+    </div>
+  </div> 
+
+</section>
+
+<section id="p">
+  <div class="container37">
+    <img src="37.jpg" class="image">
+    <div class="overlay">
+      <div class="text">조던tv 채널아트<br>(Photochop)</div>
+    </div>
+  </div> 
+  
+  <div class="container38">
+    <img src="38.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">조던 로고<br>(Photochop)</div>
+    </div>
+  </div>
+
+  <div class="container39">
+    <img src="39.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">Puppybillity 로고<br>(Photochop)</div>
+    </div>
+  </div>
+</section>
+
+<section id="q">
+  <div class="container40">
+    <img src="40.png" class="image">
+    <div class="overlay">
+      <div class="text">진사도서관 독서마라톤 로고<br>(Illustrator)</div>
+    </div>
+  </div> 
+  
+  <div class="container41">
+    <img src="41.jpg"  class="image">
+    <div class="overlay">
+      <div class="text">진사도서관 독서마라톤 로고<br>(Illustrator)</div>
+    </div>
+  </div>
+</section>
+
+
+<nav class id="manu">
+  <div class="row">
+  	<div class="column" onclick="openTab('containerTab');" style="color:#1ddb16;">
+  		Mj355
+  	</div>
+  </div>
+
+  <div id="containerTab" style="display:none;background:black">
+  	<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  	<img src="thum.jpg" width="40%">
+  	<h2><br>Mj355</h2>
+  	<p>Mj355는 그녀의 집 주소 맨 마지막 세 자리이다. 태어나면서부터 지금까지 풀 많고 논밭 투성이며 가끔 야생 고라니가 나타나기도 하는 시골에서 자란 그녀는 자연스럽게 자연 친화적인 작품들을 그리는 스타일을 가지게 되었다.<br>
+  	현재 그라폴리오에서 아이와 동물, 자연을 엮는 시리즈 일러스트를 자유연재 중이며, 인스타그램에는 드로잉, 일러스트 등을 꾸준히 업로드하고 있다. 만화를 좋아해 곧 웹툰으로도 찾아볼 수 있을 것이다.<br>
+  	<br> E-mail: mj35597@gmail.com <br>Call: +82)010-4754-7422 
+  	</p>
+  </div>
+</nav>
+
+<script>
+function openTab(tabName) {
+  var i, x;
+  x = document.getElementsByClassName("containerTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(tabName).style.display = "block";
+}
+</script>
+
+<nav class id="ins">
+        <ul>
+           <li class="li"><a href ="https://www.instagram.com/mj355/" id="link">Instagram</a>
+
+           </li>
+        </ul>
+</nav>
+
+    <nav class id="gra">
+        <ul>
+           <li class="li"><a href ="https://www.grafolio.com/mj355" id="link">Grapolio</a>
+
+           </li>
+        </ul>
+</nav>
+   
+ 
 </body>
 </html>
